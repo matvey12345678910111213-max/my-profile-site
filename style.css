@@ -1,0 +1,117 @@
+/* Общие настройки для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #1a252f; /* Красивый темно-синий фон */
+    color: #ffffff;            /* Цвет текста — белый */
+}
+
+/* Оформление шапки и меню навигации */
+header {
+    background-color: #2c3e50; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1abc9c; /* Бирюзовый цвет при наведении */
+}
+
+/* Стилизация основного блока контента */
+main {
+    background-color: #243342; /* Светлый сине-серый тон для блоков */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Ссылки внутри текста */
+main a {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #16a085;
+}
+
+/* НАСТРОЙКА КРУПНЫХ И КРАСИВЫХ КАРТИНОК */
+.site-img {
+    border: 3px solid #1abc9c; /* Бирюзовая рамка */
+    border-radius: 8px;
+    margin: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    width: 100%;            
+    max-width: 600px;       
+    height: auto;           
+    display: block;
+}
+
+/* СТИЛЬ ДЛЯ КНОПКИ НАЗАД НА ГЛАВНУЮ */
+.back-btn {
+    display: inline-block;
+    background-color: #e74c3c; /* Красный цвет кнопки */
+    color: white !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background 0.3s;
+    margin-bottom: 20px; /* Отступ снизу, чтобы отделялась от контента */
+}
+
+.back-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Стилизация таблицы для биографии */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #1a252f;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #34495e;
+    color: #ffffff;
+}
+
+th {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Подвал сайта */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #bdc3c7;
+    border-top: 1px solid #34495e;
+    padding-top: 20px;
+}
